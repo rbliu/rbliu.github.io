@@ -3,7 +3,7 @@ auto: true
 #markdown: rdiscount
 highlighter: 'pygments'
 #paginate: 8
-permalink: /:categories/:title
+permalink: /:title
 
 name: "Robert's Blog"
 title: Robert Liu's Blog
