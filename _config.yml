@@ -1,14 +1,11 @@
 auto: true
 
-markdown: rdiscount
-
+#markdown: rdiscount
 highlighter: 'pygments'
 #paginate: 8
 permalink: /:title
 
-name: “Robert's Blog”
-title: Robert's Blog
-description: Everything about Robert Liu.
-url: http://rbliu.github.io
+title: Hyper Hamster
+url: http://mukosame.github.io
 feed: /atom.xml
-author_info: <a href="http://rbliu.github.io/">rbliu</a>
+author_info: <a href="http://mukosame.github.io/">Mukosame</a>
