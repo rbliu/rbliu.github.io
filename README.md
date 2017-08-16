@@ -2,4 +2,4 @@
 
 * Initial commit 08/15/2017.
 
-Empty template from [mukosame.github.io](http://mukosame.github.io)
+Empty template from [BeiYuu.com](http://beiyuu.com)
