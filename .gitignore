@@ -11,3 +11,4 @@ config.log
 tests/.tests
 ups/*.cfgc
 version.py
+_site
