@@ -6,10 +6,11 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <h1>BeiYuu</h1>
-        <a href="http://weibo.com/beiyuu/" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-        <a href="http://www.douban.com/people/beiyuu/" target="_blank"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-        <a href="http://instagram.com/beiyuu/" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
+        <h1>Robert Liu</h1>
+        <h2>Brown University</h2>
+        <a href="http://weibo.com/byliu" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
+        <a href="https://github.com/rbliu" target="_blank"><img src="https://github.com/favicon.ico" alt="" width="25"/></a>
+        <a href="https://www.zhihu.com/people/byliu1990" target="_blank"><img src="https://www.zhihu.com/favicon.ico" alt="" width="25"/></a>
       </div>
       <div id="particles-js"></div>
     </div>
