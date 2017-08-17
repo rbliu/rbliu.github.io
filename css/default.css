@@ -149,7 +149,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     #content {width:85%;margin:100px auto 50px; }
 
     h2{font-size:20px;}
-    h3{font-size:16px;}
+    h3{color:#808080; font-size:16px;}
     embed {display:none;}
 
     .entry-title,.entry-title a {font-size:24px;}
