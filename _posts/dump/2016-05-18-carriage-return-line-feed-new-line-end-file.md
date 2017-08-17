@@ -5,7 +5,9 @@ description: 回车和换行在不同系统下面定义不同，时不时会有�
 category: dump
 ---
 
-*This post is for test only!*
+```
+This post is for test only!
+```
 
 ## 回车和换行
 
