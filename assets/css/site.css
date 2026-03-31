@@ -555,4 +555,13 @@ img {
   .page-title {
     font-size: clamp(2rem, 10vw, 3rem);
   }
+
+  .profile-photo-wrap {
+    width: min(100%, 140px);
+  }
+
+  .profile-photo {
+    aspect-ratio: 1 / 1;
+    object-position: 78% 78%;
+  }
 }
