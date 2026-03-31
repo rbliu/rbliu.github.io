@@ -126,9 +126,9 @@ img {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.3fr 0.9fr;
+  grid-template-columns: 0.82fr 1.18fr;
   gap: 1.5rem;
-  align-items: stretch;
+  align-items: start;
   margin-bottom: 1.75rem;
 }
 
@@ -148,7 +148,8 @@ img {
 }
 
 .profile-photo-wrap {
-  margin-bottom: 1.35rem;
+  width: min(100%, 250px);
+  margin: 0 auto 1.2rem;
   border-radius: 22px;
   overflow: hidden;
   background: #dbe6ee;
@@ -157,9 +158,9 @@ img {
 
 .profile-photo {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: center 32%;
+  object-position: center 28%;
 }
 
 .eyebrow {
@@ -190,6 +191,22 @@ img {
   margin: 0;
   font-size: 1.05rem;
   color: var(--muted);
+}
+
+.content-stack {
+  display: grid;
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.content-stack ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.content-stack li + li {
+  margin-top: 0.45rem;
 }
 
 .hero__actions {
@@ -498,8 +515,8 @@ img {
   }
 
   .profile-photo {
-    aspect-ratio: 16 / 11;
-    object-position: center 28%;
+    aspect-ratio: 4 / 3;
+    object-position: center 26%;
   }
 }
 
