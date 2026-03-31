@@ -148,7 +148,7 @@ img {
 }
 
 .profile-photo-wrap {
-  width: min(100%, 120px);
+  width: min(100%, 240px);
   margin: 0 auto 1.2rem;
   border-radius: 22px;
   overflow: hidden;
