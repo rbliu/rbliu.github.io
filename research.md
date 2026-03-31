@@ -16,17 +16,6 @@ permalink: /research/
   </p>
 </section>
 
-<section class="grid">
-  <article class="section-card panel">
-    <h2 class="section-title">Research Style</h2>
-    <p>
-      I am particularly interested in combining observational goals with practical
-      software infrastructure, so this page highlights both scientific topics and the
-      data-processing systems that make those projects possible.
-    </p>
-  </article>
-</section>
-
 <section class="section-card panel">
   <h2 class="section-title">Selected Directions</h2>
   <div class="timeline">
@@ -56,18 +45,6 @@ permalink: /research/
       </p>
     </div>
   </div>
-</section>
-
-<section class="grid">
-  <article class="section-card panel">
-    <h2 class="section-title">Collaborations and Projects</h2>
-    <ul>
-      <li>Wide Field Survey Telescope (WFST) data processing pipeline development.</li>
-      <li>LoVoCCS collaboration on nearby galaxy cluster survey data.</li>
-      <li>LSST and DESC-related pipeline testing, simulation, and analysis work.</li>
-    </ul>
-  </article>
-
 </section>
 
 <section class="section-card panel">
