@@ -150,6 +150,8 @@ img {
 .profile-photo-wrap {
   width: min(100%, 360px);
   margin: 0 auto 1.2rem;
+  position: relative;
+  aspect-ratio: 3 / 4;
   border-radius: 22px;
   overflow: hidden;
   background: #dbe6ee;
@@ -157,12 +159,14 @@ img {
 }
 
 .profile-photo {
-  width: 100%;
-  aspect-ratio: 3 / 4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 150%;
+  height: 150%;
+  max-width: none;
   object-fit: cover;
-  object-position: center 28%;
-  transform: scale(1.5);
-  transform-origin: 100% 100%;
+  object-position: 100% 100%;
 }
 
 .eyebrow {
@@ -578,10 +582,12 @@ img {
 
   .profile-photo-wrap {
     width: min(100%, 140px);
+    aspect-ratio: 1 / 1;
   }
 
   .profile-photo {
-    aspect-ratio: 1 / 1;
-    object-position: 78% 78%;
+    width: 150%;
+    height: 150%;
+    object-position: 100% 100%;
   }
 }
