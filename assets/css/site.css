@@ -269,14 +269,32 @@ img {
   border-bottom: 0;
 }
 
-.meta-label {
-  display: block;
-  margin-bottom: 0.25rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
+.meta-line {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--text);
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.meta-icon {
+  width: 1.55rem;
+  height: 1.55rem;
+  flex: 0 0 1.55rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(217, 231, 242, 0.8);
+  color: var(--accent);
+}
+
+.meta-icon svg {
+  width: 0.92rem;
+  height: 0.92rem;
+  fill: currentColor;
 }
 
 .grid {
