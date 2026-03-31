@@ -1,13 +1,36 @@
-auto: true
+title: Binyang Liu
+description: Personal website of Binyang Liu
+url: "https://rbliu.github.io"
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 
-#markdown: rdiscount
-highlighter: 'pygments'
-#paginate: 8
-permalink: /:title
+author:
+  name: Binyang Liu
+  name_zh: 刘滨阳
+  github: rbliu
+  title: Engineer at Purple Mountain Observatory, CAS
+  location: Nanjing, China
+  email: byliu@pmo.ac.cn
+  scholar: https://scholar.google.com/citations?user=WcBNVcEAAAAJ
 
-name: "Robert's Blog"
-title: Robert Liu's Blog
-description: Everything about Robert Liu
-url: http://rbliu.github.io
-feed: /atom.xml
-author_info: <a href="http://rbliu.github.io/">rbliu</a>
+navigation:
+  - title: About
+    url: /
+    key: about
+  - title: Research
+    url: /research/
+    key: research
+  - title: CV
+    url: /cv/
+    key: cv
+
+exclude:
+  - README.md
+  - css
+  - js
+  - images
+  - dump
+  - project
+  - _posts

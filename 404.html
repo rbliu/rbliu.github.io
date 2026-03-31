@@ -1,7 +1,18 @@
 ---
-layout:         page
-title:          Error！
+layout: default
+title: Page Not Found
+permalink: /404.html
+nav_key: none
 ---
-<h1>Sorry about the error: 404</h1>
 
-<p>And here's something else for you.</p>
+<section class="section-card panel">
+  <span class="eyebrow">404</span>
+  <h1 class="page-title">Page not found</h1>
+  <p class="lead">
+    The page you requested does not exist. Please return to the homepage or use the
+    navigation above.
+  </p>
+  <div class="hero__actions">
+    <a class="button button--primary" href="{{ '/' | relative_url }}">Back to About</a>
+  </div>
+</section>
