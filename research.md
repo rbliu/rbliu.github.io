@@ -18,16 +18,6 @@ permalink: /research/
 
 <section class="grid">
   <article class="section-card panel">
-    <h2 class="section-title">Research Themes</h2>
-    <div class="tag-list">
-      <span class="tag">Galaxy clusters</span>
-      <span class="tag">Gravitational lensing</span>
-      <span class="tag">WFST pipelines</span>
-      <span class="tag">Asteroid detection</span>
-    </div>
-  </article>
-
-  <article class="section-card panel">
     <h2 class="section-title">Research Style</h2>
     <p>
       I am particularly interested in combining observational goals with practical
@@ -78,20 +68,13 @@ permalink: /research/
     </ul>
   </article>
 
-  <article class="section-card panel">
-    <h2 class="section-title">Publication Access</h2>
-    <p>
-      This page highlights five representative publications. A fuller list is available
-      on a separate publications page so the main research overview can stay compact.
-    </p>
-    <div class="hero__actions">
-      <a class="button button--secondary" href="{{ '/publications/' | relative_url }}">View Full Publications List</a>
-    </div>
-  </article>
 </section>
 
 <section class="section-card panel">
   <h2 class="section-title">Selected Publications</h2>
+  <div class="hero__actions">
+    <a class="button button--secondary" href="{{ '/publications/' | relative_url }}">View Full Publication List</a>
+  </div>
   <div class="pub-list">
     <article class="pub-item">
       <h3>CFHT MegaCam Two Deep Fields Imaging Survey (2DFIS) I &amp; II</h3>
@@ -205,11 +188,4 @@ permalink: /research/
       </div>
     </div>
   </article>
-</section>
-
-<section class="note-card panel">
-  <p>
-    This page now presents a tighter research overview with five selected papers. The
-    complete publication list is available separately so the main page stays readable.
-  </p>
 </section>
