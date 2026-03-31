@@ -52,17 +52,7 @@ nav_key: about
 
     <div class="content-stack">
       <div>
-        <h2 class="section-title">Short Bio</h2>
-        <p>
-          I am an engineer at Purple Mountain Observatory, Chinese Academy of Sciences.
-          My interests include galaxy clusters and gravitational lensing, development of
-          the data processing pipeline for the Wide Field Survey Telescope (WFST), and
-          asteroid detection and related survey applications.
-        </p>
-      </div>
-
-      <div>
-        <h2 class="section-title">Research Interests</h2>
+        <p class="content-heading">Research Interests</p>
         <ul>
           <li>Galaxy clusters and gravitational lensing.</li>
           <li>WFST data processing pipeline development.</li>

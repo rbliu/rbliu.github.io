@@ -148,7 +148,7 @@ img {
 }
 
 .profile-photo-wrap {
-  width: min(100%, 250px);
+  width: min(100%, 120px);
   margin: 0 auto 1.2rem;
   border-radius: 22px;
   overflow: hidden;
@@ -207,6 +207,13 @@ img {
 
 .content-stack li + li {
   margin-top: 0.45rem;
+}
+
+.content-heading {
+  margin: 0 0 0.7rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
 }
 
 .hero__actions {
